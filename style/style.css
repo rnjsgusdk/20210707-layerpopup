@@ -1,0 +1,161 @@
+@charset"UTF-8";
+@import url(style_Reset.css);
+
+h1
+{
+    text-align: center;
+    margin: 40px;
+}
+
+
+div#warp
+{
+    width: 1300px;
+    height: 2000px;
+    padding: 40px;
+    margin: 40px auto;
+    border: 1px solid #000;
+}
+
+div#contents
+{
+    width: 1200px;
+/*    border: 4px solid #aaa;*/
+    margin: 0 auto;
+}
+
+#contents>div
+{
+    width: 400px;
+    height: 200px;
+    padding: 4px;
+/*    border: 1px solid #000;*/
+    margin: 4px;
+}
+
+botton.tabban
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px 14px;
+    border: 1px solid #aaa;
+
+    position: relative;
+    top: 1px;
+
+    cursor: pointer;
+}
+
+botton.tabban: frist-child
+{   border-bottom-color: #fff;
+    background-color: #fff;
+    left: 6px;
+}
+
+div.tabcontents
+{ padding: 4px;
+    border: 1px solid #aaa;
+}
+
+div#contents table
+{
+/*    border: 1px solid #000;*/
+    width: 100%;
+}
+
+
+
+#noticearea td
+{
+    line-height: 34px;
+
+}
+
+#galleryarema td
+{
+    height: 140px;
+    text-align: center;
+}
+
+/*
+#noticearea
+{
+    display: block;
+}
+*/
+
+#galleryarema
+{
+    display: none;
+
+}
+
+
+/*레이어팝업*/
+tr#poppoint
+{
+
+    cursor: pointer;
+}
+
+div#warp #contents #bbs tr#poppoint:hover
+{
+    background-color: rgb(0, 0, 0,0.02);
+    font-weight: bold;
+    font-size: 99%;
+}
+/*레이어팝업 BG*/
+
+div#layerbg
+{
+    width: 100%;
+    height: 100%;
+/*    border: 1px solid #f00;*/
+/*    background-color: rgba(0, 0, 0, 0.6);*/
+    background-color: rgba(0, 0, 0, 0.0);
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+div#layerpopup
+{   width: 470px;
+    padding: 30px;
+    border: 4px solid #aaa;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+
+      /*화면정중앙시작*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#layerpopup h1
+{
+    margin: 0 0 20px;
+}
+
+#layerpopup p
+{   font-size: 18px;
+    line-height: 28px;
+/*    border: 1px solid #000;*/
+}
+#layerpopup button div#btnarea
+{
+    /* border: 1px solid #000;*/
+    margin-top: 10px;
+    padding-right: 40px;
+    text-align: right;
+}
+#layerpopup button
+{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 12px;
+
+    cursor: pointer;
+}

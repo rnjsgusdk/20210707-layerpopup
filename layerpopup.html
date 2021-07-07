@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+    <title>레이어팝업구현</title>
+</head>
+<body>
+   <h1>레이어팝업 구현</h1>
+    <div id="warp">
+
+        <div id="contents" class="flex-container">
+
+        <div id="dds">
+         <botton type="button" class="tabbtn"
+            data-link="noticearea">
+             공지사항
+         </botton>
+
+             <botton type="button"class="tabbtn"
+              data-link="galleryarema">
+                 갤러리
+             </botton>
+
+            <div class="tabcontents" id="noticearea">
+              <table>
+                  <tbody>
+                      <tr id="poppoint">
+                          <td>3월 재입고 품목을 알려드립니다.</td>
+                          <td>2020.03.14</td>
+                      </tr>
+                      <tr>
+                          <td>반품/환불 규정에 대해 알려드립니다.</td>
+                          <td>2020.03.14</td>
+                      </tr>
+                      <tr>
+                          <td>S/S 시즌 신규 의류 신상품 안내</td>
+                          <td>2020.03.14</td>
+                      </tr>
+                      <tr>
+                          <td>신규회원 대상 할인 이벤트 안내</td>
+                          <td>2020.03.14</td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
+
+            <div class="tabcontents"
+                id="galleryarema">
+            <table>
+                  <tbody>
+                      <tr>
+                          <td><img src="images/icon1.jpg" alt=""></td>
+                          <td><img src="images/icon2.jpg" alt=""></td>
+                          <td><img src="images/icon3.jpg" alt=""></td>
+                      </tr>
+                 </tbody>
+              </table>
+            </div>
+        </div>
+        <!--div#dds
+        dds:bulletin board syetem -->
+
+         <!-- 멀티탭 공지시항 갤러리-->
+
+        <div>
+
+        </div>
+        <!--배너광고-->
+        <div>
+
+        </div>
+        <!--바로가기-->
+
+        </div>
+        <!--div#contents-->
+
+    </div>
+    <!--div#warp-->
+
+    <!--레이어팝업시작-->
+    <div id="layerbg">
+        <div id="layerpopup">
+
+<h1>이벤트 안내</h1>
+
+<p>
+안녕하세요! JUST쇼핑몰입니다. <br>
+고객님들의 성원에 보답하는 JUST쇼핑몰이 되고자<br>
+신규회원 20% 할인 이벤트를 실시하고 있습니다.<br>
+웹과 모바일 가입회원 대상이며, <br>
+서비스만족을 위해 꾸준히 노력하겠습니다.<br>
+   </p>
+           <div id="btnarea">
+               <button type="button">닫기</button>
+           </div>
+
+        </div>
+        <!--팝업내용-->
+    </div>
+    <!--회색배경-->
+
+    <!--레이어팝업끝-->
+
+</body>
+</html>
